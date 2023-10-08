@@ -7,7 +7,8 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
     QDir::setCurrent(QApplication::applicationDirPath());
-    QDir::setCurrent("BouncingDVD_Files");
+    QDir::setCurrent("Res");
+
     initIcons();
 
     MainWindow window;
