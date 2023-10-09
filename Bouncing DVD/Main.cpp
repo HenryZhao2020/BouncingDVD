@@ -14,12 +14,17 @@ int main(int argc, char *argv[]) {
     MainWindow window;
     window.showFullScreen();
 
-    QTimer timer;
-    timer.setInterval(10);
-    QObject::connect(&timer, &QTimer::timeout, &app, [&window] {
+    QTimer iconTimer;
+    QObject::connect(&iconTimer, &QTimer::timeout, &app, [&window] {
         window.moveIcon();
     });
-    timer.start();
+    iconTimer.start(10);
+
+    QTimer winTimer;
+    QObject::connect(&iconTimer, &QTimer::timeout, &app, [&window] {
+        window.showFullScreen();
+    });
+    winTimer.start(1000);
 
     return app.exec();
 }
