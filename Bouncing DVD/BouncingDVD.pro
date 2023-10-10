@@ -8,7 +8,7 @@ TARGET = "Bouncing DVD"
 
 QMAKE_TARGET_DESCRIPTION = "Bouncing DVD"
 
-VERSION = 1.0.1
+VERSION = 1.1.0
 
 # You can make your code fail to compile if it uses deprecated APIs.
 # In order to do so, uncomment the following line.
