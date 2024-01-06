@@ -1,5 +1,9 @@
 # BouncingDVD
+
 A fun screensaver with a "DVD-Video" logo bouncing around the screen!
+
+Download Latest Version: https://github.com/HenryZhao2020/BouncingDVD/releases/download/v1.1.0/BouncingDVD-v1.1.0.zip
+
 
 # Preview
 
